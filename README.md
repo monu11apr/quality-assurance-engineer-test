@@ -6,16 +6,12 @@ This test consists of two parts: a written part and a coding part. For the writt
 like to receive a PDF, slide presentation or MD file with your insights. For the coding part, a fork of this repo with
 your solution will do.
 
-### Written Assignment
-
-
 ### Automated Testing Assignment
 You can fork (and then clone your own version) this repo and run:
 
 ```
-$ npm install
-$ npm start
+$ python -m http.server 8000
 ```
 
-You now have a working frontend app that you will write some kind of automated user acceptence test. 
+You now have a working frontend app that you will write some kind of automated user acceptence test.
 The language of framework does not matter, but we prefer JS, PHP or Python.
