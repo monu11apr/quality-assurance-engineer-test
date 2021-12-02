@@ -7,7 +7,7 @@ like to receive a PDF, slide presentation or MD file with your insights. For the
 your solution will do.
 
 ### Automated Testing Assignment
-You can fork (and then clone your own version) this repo and run:
+You can fork (and then clone your own version of) this repo and run:
 
 ```
 $ python -m http.server 8000
