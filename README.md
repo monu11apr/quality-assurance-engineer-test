@@ -13,5 +13,5 @@ You can fork (and then clone your own version) this repo and run:
 $ python -m http.server 8000
 ```
 
-You now have a working frontend app that you will write some kind of automated user acceptence test.
-The language of framework does not matter, but we prefer JS, PHP or Python.
+You now have a working frontend app that you will write some kind of automated user acceptence tests for.
+The language of framework you use does not matter, but we prefer JS, PHP or Python.
