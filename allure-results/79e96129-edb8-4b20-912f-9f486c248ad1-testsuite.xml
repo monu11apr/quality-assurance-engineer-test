@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641480660823' stop='1641480664696'>
+    <name>Test Scenario</name>
+    <title>Test Scenario</title>
+    <test-cases>
+        <test-case start='1641480660826' status='passed' stop='1641480664694'>
+            <name>Create a new question</name>
+            <title>Create a new question</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-85.0.4183.83'/>
+                <parameter kind='argument' name='browserVersion' value='85.0.4183.83'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='26ae2cfe-1ce7-4d38-a73b-cb88f6b56316-attachment.png' type='image/png' size='36857'/>
+                <attachment title='Screenshot' source='19121489-7b3b-411a-aa5a-8480644a41fa-attachment.png' type='image/png' size='36857'/>
+                <attachment title='Screenshot' source='b277dddb-7ebd-4a8b-9239-0e22851b8f10-attachment.png' type='image/png' size='38734'/>
+                <attachment title='Screenshot' source='183f4216-256a-435b-8acb-953dcd3b7139-attachment.png' type='image/png' size='38677'/>
+                <attachment title='Screenshot' source='7dd1fef9-cdda-4df6-8334-61012e6324be-attachment.png' type='image/png' size='39804'/>
+                <attachment title='Screenshot' source='e6594e6a-cab9-4354-b465-b89804dcdaa5-attachment.png' type='image/png' size='39160'/>
+                <attachment title='Screenshot' source='3745b970-54fa-4be9-b747-0bd65797f5b7-attachment.png' type='image/png' size='39765'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

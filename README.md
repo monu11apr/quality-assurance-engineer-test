@@ -1,17 +1,31 @@
-# Quality Assurance engineer test
-Welcome to the QA Engineer tech test. We expect the work to take around 1 to 1.5 hours, and we thank
-you in advance for taking that time for us!
 
-This test consists of two parts: a written part and a coding part. For the written part, we would
-like to receive a PDF, slide presentation or MD file with your insights. For the coding part, a fork of this repo with
-your solution will do.
+In an effort to stabilize flaky tests written for WebdriverIO v3.3 (which is promise-based), a rewrite of the test suites using version `4+`
+of WebdriverIO is needed for synchronous testing support.
 
-### Automated Testing Assignment
-You can fork (and then clone your own version of) this repo and run:
+## Quickstart Guide
+
+### Before you Begin
+
+1. Change into the `quality-assurance-engineer-test` directory
+2. Make sure the web-test repo is up-to-date
+3. Make sure you have all the dependencies installed
+
+You can do all by running this one command:
 
 ```
-$ python -m http.server 8000
+$ cd ~/StuDocu/quality-assurance-engineer-test && git pull origin master && npm install
 ```
 
-You now have a working frontend app that you will write some kind of automated user acceptence tests for.
-The language of framework you use does not matter, but we prefer JS, PHP or Python.
+### Run just one test locally
+
+```
+$ npm run test
+```
+
+**Example:** `npm run test -- --spec=e2e/specs/ui/test.spec.js`
+
+## Retry Reporter
+
+There is a custom reporter called the `RetryReporter` to help us keep track of all the tests that failed during the last run. This reporter's job is to print a command at the end of any test run (that ended with failed tests), and generate a command you can use to replay all of the tests that failed.
+
+![](media/RetryReporter.png)
